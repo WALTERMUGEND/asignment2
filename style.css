@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.image {
+    width: 45%;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.about {
+    width: 45%;
+    padding: 20px;
+    background-color: transparent;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+a:hover {
+    background-color: #2980b9;
+}
+
+.map-and-form {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.map {
+    width: 45%;
+}
+
+.map iframe {
+    width: 100%;
+    height: auto;
+}
+
+.contact-form {
+    width: 40%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin-right: 10%;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group {
+    flex: 1;
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.submit-button {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 30%;
+}
+
+.submit-button:hover {
+    background-color: #2980b9;
+}
+
+
+input, textarea, button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+
